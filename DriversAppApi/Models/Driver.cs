@@ -13,7 +13,6 @@ using MongoDB.Bson.Serialization.Attributes;
         public string Team { get; set; } = null!;
         
         
-        
         // Add this property to match the 'Number' field in your MongoDB document
         public int Number { get; set; }
     }
